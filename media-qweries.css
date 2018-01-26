@@ -1,0 +1,22 @@
+@media (max-width: 1318px) {
+  .logo {
+    margin-left: 60px;
+    margin-right:  100px;
+  }
+  /*.header {
+  	width: 1024px;
+  	margin: 0 auto;
+  }*/
+  .menu_ul {
+  	width: 550px;
+  }
+  .menu {
+  	margin-right: 35px;
+  }
+  .instrument img {
+  	margin-right: 15px;
+  }
+  .wrapper_header {
+  	width:   1318px;
+  }
+}
