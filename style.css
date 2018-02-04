@@ -239,24 +239,33 @@ a, a:hover {text-decoration: none;}
 	font-size: 0.875em;
 	color: #fff;
 	text-transform: uppercase;
-	transition: all 0.5s;
+	transition: opacity 0.1s;
+	transition: margin 0.5s;
 }
 .get_started:hover {
 	cursor: pointer;
 	opacity: 0.9;
 }
+.get_started:active {
+	opacity: 0.7;
+}
 
 /*....................SERVISEC.......................*/
-
+.wrapper_services {
+	width: 100%;
+	max-width: 1920px;
+}
 .services {
+	width: 90.04392386530015% /*64.0625%*/;
+	max-width: 1230px;
+	margin: 0 auto;
 	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 75px;
+	padding: 70px 0 65px;
 }
 .common_div {
 	padding: 0 10px;
 	text-align: center;
-  /*height: 220px;*/
+    /*height: 220px;*/
 	width: 270px;
 	display: inline-block;
 }
@@ -333,7 +342,7 @@ a, a:hover {text-decoration: none;}
 	margin-bottom: 30px;
 }
 .services_line {
-	margin: 0 auto;
+	margin: 0 auto 30px;
 	width: 70px;
 	height: 3px;
 	background-color: #f1eee9;
