@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+ 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="media-qweries.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -12,25 +12,39 @@
 <body>
 	<div class="wrapper_header">
 		<div class="header">
-			<div class="logo">
-				<img src="./img/logos.png" alt="Логотип" title="Логотип">
-				<p class="logo_p">Waxoms</p>
+			<input type="checkbox" id="swich">
+			<div class="wrapp-mobile-menu">
+				<div class="logo">
+					<img src="./img/logos.png" alt="Логотип" title="Логотип">
+					<p class="logo_p">Waxoms</p>
+				</div>
+				<label for="swich" class="mobile-menu">
+					<div class="mobile-menu-column1"></div>
+					<div class="mobile-menu-column2"></div>
+					<div class="mobile-menu-column3"></div>
+				</label>
 			</div>
-			<div class="menu">
-				<ul class="menu_ul">
-					<li>Home</li>
-					<li>About Us</li>
-					<li>Portfolio</li>
-					<li>Features</li>
-					<li>Blog</li>
-					<li>Pricing</li>
-					<li>Shortcodes</li>
-					<li>Contact</li>
-				</ul>
-			</div>
-			<div class="instrument">
-				<img src="./img/header_icon_cart.png" alt="">
-				<img src="./img/header_icon_search.png" alt="">
+			<div class="wrapp-menu-item">
+				<div class="menu">
+					<div class="instrument-mobile">
+						<a href="#"><img src="./img/header_icon_search.png" alt="Пошук"></a>
+						<a href="#"><img src="./img/header_icon_cart.png" alt="Корзина"></a>
+					</div>
+					<ul class="menu_ul">
+						<li><a href="#">Home</a></li>
+						<li><a href="#"><nobr>About Us</nobr></a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Shortcodes</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="instrument">
+					<a href="#"><img src="./img/header_icon_cart.png" alt="Корзина"></a>
+					<a href="#"><img src="./img/header_icon_search.png" alt="Пошук"></a>
+				</div>
 			</div>
 		</div>
 		<div class="wrap_slider">
@@ -78,7 +92,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="services">
+	<!-- <div class="services">
 		<div class="design common_div">
 			<div class="design_img"></div>
 			<p class="common_p_title" >Web & App Design</p>
@@ -485,7 +499,7 @@
 			<p class="copyright_p"><a href="#">Only on <span class="copyright_grey">Envato Market</span></a></p>
 			<p class="copyright_p"><a href="#">Designed by <span class="copyright_grey">ThemeFire</span></a></p>
 		</div>
-	</div>
+	</div> -->
 
 
 	<script src="slick/slick.min.js"></script>
