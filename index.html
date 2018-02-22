@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Waxom</title>
+	<link rel="icon" href="./img/logo-icon.jpg" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="style.css">
@@ -130,29 +131,31 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- <div class="waxom">
-		<div class="wrap_waxom">
+	<!-- <div class="wrapper_waxom">
+		<div class="waxom">
 			<h1 class="waxom_h1">Waxom is Realization of your Ideas.</h1>
 			<p class="waxom_p">Investigationes demonstraverunt lectores legere me
 				 lius quod ii legunt saepius. Claritas est<br>
-					 etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+				etiam processus dynamicus, qui sequitur mutationem consuetudium.
+			</p>
 			<img src="./img/waxon_img3.png" alt="" class="wax_img3">
 			<img src="./img/waxon_img2.png" alt="" class="wax_img2">
 			<img src="./img/waxon_img1.png" alt="" class="wax_img1">
 		</div>
-	</div>
-	<div class="text_boxes">
-		<div class="wrapp_text_boxes">
-			<div class="wrap_content">
-				<h1 class="text_boxes_h1"><span class="span_wax">Waxom</span> Multipurpose WordPress Theme</h1>
-				<p class="text_boxes_p">Don't Forget to Rate the Template. Thanks so much!</p>
+	</div> -->
+	<div class="wrapper_text_boxes">
+		<div class="text_boxes">
+			<div class="wrapper_content">
+				<div class="wrap_text">
+					<h1 class="text_boxes_h1"><span class="span_wax">Waxom</span> Multipurpose WordPress Theme</h1>
+					<p class="text_boxes_p">Don't Forget to Rate the Template. Thanks so much!</p>
+				</div>
+				<button class="text_boxes_button">Purchase Now</button>
 			</div>
-			<button class="text_boxes_button">Purchase Now</button>
 		</div>
 	</div>
-	<div class="latest">
-		<div class="wrap_latest">
+	<div class="wrapper_latest">
+		<div class="latest">
 				<h1 class="latest_h1">Our Latest Projects</h1>
 				<p class="latest_p">Investigationes demonstraverunt
 						 lectores legere me lius quod ii legunt saepius. Claritas est<br>
@@ -250,25 +253,36 @@
 					</div>
 				</div>
 			</div>
-			<button type="button" name="button" class="tab_button">Load More</button>
+			<div class="latest__wrapp-button">
+				<button type="button" name="button" class="tab_button">Load More</button>
+			</div>
 		</div>
 	</div>
-	<div class="video_presentation">
-		<div class="wrap_video">
-			<div class="play"></div>
-			<h1 class="video_presentation_h1">Waxom Video Presentation</h1>
-			<p class="video_presentation_p">Investigationes demonstraverunt
-				lectores legere me lius quod ii legunt<br>
-				 saepius, qui sequitur mutationem consuetudium.</p>
-			<p class="video_presentation_p2">03:26</p>
-			<iframe class="iframe_play "  width="560" height="315" src="https://www.youtube.com/embed/5siiM1RNd2k"
-		 allowfullscreen></iframe>
+	<div class="wrapper_video_presentation">
+		<input type="checkbox" id="swich-video" name="" value="">
+		<div class="video_presentation">
+			<div class="wrap_video">
+				<label for="swich-video" class="play"></label>
+				<div class="wrapp_video_text">
+					<h1 class="video_presentation_h1">Waxom Video Presentation</h1>
+					<p class="video_presentation_p">Investigationes demonstraverunt
+						lectores legere me lius quod ii legunt<br>
+						 saepius, qui sequitur mutationem consuetudium.</p>
+					<p class="video_presentation_p2">03:26</p>
+				</div>
+				<div class="thumb-wrap">
+					<iframe class="iframe_play "  width="560" height="315" src="https://www.youtube.com/embed/5siiM1RNd2k"
+				 	allowfullscreen></iframe>
+				</div>
 
+			</div>
 		</div>
 	</div>
-	<div class="excellent clearfix">
+	<div class="excellent">
 		<div class="wrap_excellent">
-			<div class="excellent_img"></div>
+			<div class="excellent_img">
+				<img src="./img/excellent_img.png" alt="fone">
+			</div>
 			<div class="wrap_elem_excellent">
 				<h1 class="excellent_h1">Excellent for Mobile Devices.</h1>
 				<p class="excellent_p">Qisi enim ad minim veniam, quis
@@ -330,13 +344,13 @@
 				 <div class="wrap_post">
 	 				<div class="post">
 	 					<div class="post_img1 post_img_common">
-	             <div class="post_img_background">
+	             			<div class="post_img_background">
 	     						<div class="post_icon">
 	     							<div class="day_post">30</div>
 	     							<div class="month_post">Sep.</div>
 	     						</div>
 	 					   </div>
-	             </div>
+	             		</div>
 	 					<div class="post_content">
 	 						<h1 class="post_h1">Lorem ipsum dolor sit amet</h1>
 	 						<p class="post_p">Claritas est etiam processus dynamicus,
@@ -346,13 +360,13 @@
 	 				</div>
 	 				<div class="post">
 	 					<div class="post_img2 post_img_common">
-	             <div class="post_img_background">
-	   						<div class="post_icon">
-	   							<div class="day_post">30</div>
-	   							<div class="month_post">Sep.</div>
-	   						</div>
-	 					 </div>
-	           </div>
+		             		<div class="post_img_background">
+		   						<div class="post_icon">
+		   							<div class="day_post">30</div>
+		   							<div class="month_post">Sep.</div>
+		   						</div>
+		 					 </div>
+	          			 </div>
 	 					<div class="post_content">
 	 						<h1 class="post_h1">Lorem ipsum dolor sit amet</h1>
 	 						<p class="post_p">Claritas est etiam processus dynamicus,
@@ -362,13 +376,13 @@
 	 				</div>
 	 				<div class="post">
 	 					<div class="post_img3 post_img_common">
-	             <div class="post_img_background">
-	   						<div class="post_icon">
-	   							<div class="day_post">30</div>
-	   							<div class="month_post">Sep.</div>
-	   						</div>
-	 					 </div>
-	           </div>
+		            		 <div class="post_img_background">
+		   						<div class="post_icon">
+		   							<div class="day_post">30</div>
+		   							<div class="month_post">Sep.</div>
+		   						</div>
+		 					 </div>
+	          			 </div>
 	 					<div class="post_content">
 	 						<h1 class="post_h1">Lorem ipsum dolor sit amet</h1>
 	 						<p class="post_p">Claritas est etiam processus dynamicus,
@@ -376,15 +390,15 @@
 	 						<button class="but_post">Read More &#9658;</button>
 	 					</div>
 	 				</div>
-	         <div class="post">
+	        	 <div class="post">
 	 					<div class="post_img1 post_img_common">
-	             <div class="post_img_background">
-	   						<div class="post_icon">
-	   							<div class="day_post">30</div>
-	   							<div class="month_post">Sep.</div>
-	   						</div>
-	 					 </div>
-	           </div>
+		           			  <div class="post_img_background">
+		   						<div class="post_icon">
+		   							<div class="day_post">30</div>
+		   							<div class="month_post">Sep.</div>
+		   						</div>
+		 					 </div>
+				           </div>
 	 					<div class="post_content">
 	 						<h1 class="post_h1">Lorem ipsum dolor sit amet</h1>
 	 						<p class="post_p">Claritas est etiam processus dynamicus,
@@ -394,13 +408,13 @@
 	 				</div>
 	 				<div class="post">
 	 					<div class="post_img2 post_img_common">
-	             <div class="post_img_background">
-	   						<div class="post_icon">
-	   							<div class="day_post">30</div>
-	   							<div class="month_post">Sep.</div>
-	   						</div>
-	 					 </div>
-	           </div>
+		           		    <div class="post_img_background">
+		   						<div class="post_icon">
+		   							<div class="day_post">30</div>
+		   							<div class="month_post">Sep.</div>
+		   						</div>
+		 					 </div>
+				         </div>
 	 					<div class="post_content">
 	 						<h1 class="post_h1">Lorem ipsum dolor sit amet</h1>
 	 						<p class="post_p">Claritas est etiam processus dynamicus,
@@ -410,13 +424,13 @@
 	 				</div>
 	 				<div class="post">
 	 					<div class="post_img3 post_img_common">
-	             <div class="post_img_background">
-	   						<div class="post_icon">
-	   							<div class="day_post">30</div>
-	   							<div class="month_post">Sep.</div>
-	   						</div>
-	 					  </div>
-	           </div>
+		          		    <div class="post_img_background">
+		   						<div class="post_icon">
+		   							<div class="day_post">30</div>
+		   							<div class="month_post">Sep.</div>
+		   						</div>
+		 				    </div>
+	          		   </div>
 	 					<div class="post_content">
 	 						<h1 class="post_h1">Lorem ipsum dolor sit amet</h1>
 	 						<p class="post_p">Claritas est etiam processus dynamicus,
@@ -448,7 +462,7 @@
 					 lobortis claritatem.</p>
 				<button type="button" name="button" class="about_wacom_but">Read More &#9658;</button>
 			</div>
-			<div class="recent_posts block_first_footer_common">
+			<div class="recent_post block_first_footer_common">
 				<h1 class="recent_posts_h1">Recent Posts</h1>
 				<div class="recent_posts1 recent_posts_common">
 					<h1 class="recent_posts1_h1">September 08, 2015</h1>
@@ -497,14 +511,18 @@
 	</div>
 	<div class="copyright">
 		<div class="wrap_copyright">
-			<p class="copyright_p"><a href="#">Copyright © 2015 <span class="copyright_grey">Waxom</span></a></p>
-			<p class="copyright_p"><a href="#">Privacy Policy </a></p>
-			<p class="copyright_p"><a href="#">FAQ</a></p>
-			<p class="copyright_p"><a href="#">Support</a></p>
-			<p class="copyright_p"><a href="#">Only on <span class="copyright_grey">Envato Market</span></a></p>
-			<p class="copyright_p"><a href="#">Designed by <span class="copyright_grey">ThemeFire</span></a></p>
+			<div class="first_copiriting">
+				<p class="copyright_p"><a href="#">Copyright © 2015 <span class="copyright_grey">Waxom</span></a></p>
+				<p class="copyright_p"><a href="#">Privacy Policy </a></p>
+				<p class="copyright_p"><a href="#">FAQ</a></p>
+				<p class="copyright_p"><a href="#">Support</a></p>
+			</div>
+			<div class="second_copiriting">
+				<p class="copyright_p"><a href="#">Only on <span class="copyright_grey">Envato Market</span></a></p>
+				<p class="copyright_p"><a href="#">Designed by <span class="copyright_grey">ThemeFire</span></a></p>
+			</div>
 		</div>
-	</div> -->
+	</div>
 
 
 	<script src="slick/slick.min.js"></script>
@@ -513,7 +531,7 @@
 			  $('.slider').slick({
 				    // setting-name: setting-value
 						autoplay: true,
-	     			arrows: false,
+	     			arrows: true,
 	     		 	dots: true
 			  });
 		});

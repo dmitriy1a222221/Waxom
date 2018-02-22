@@ -1,9 +1,115 @@
+@media screen and (max-width: 1316px) {
+    .tab_element {
+        /* width: 75%; */
+        margin: 0 auto;
+    }
+    .proj_common {
+        width: 295px;
+    }
+    .tab_img1 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_1.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img2 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_2.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img3 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_3.png) no-repeat;
+        background-position: 0 0;
+    }
+    .tab_img4 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_4.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img5 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_5.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img6 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_6.png) no-repeat;
+        background-position: 0 0;
+    }
+}
+@media screen and (max-width: 1179px) {
+    .proj_common {
+        margin: 0 auto 30px;
+    }
+}
 @media screen and (max-width: 1021px) {
     .slider {
     	margin-top: 185px;
     }
     .get_started {
     	margin-bottom: 175px;
+    }
+}
+@media screen and (max-width: 952px) {
+    .text_boxes_button {
+        margin: 25px 0 0 0;
+    }
+    .wrapper_content {
+        justify-content: center;
+    }
+    .text_boxes_h1 {
+        text-align: center;
+    }
+    .text_boxes_p {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 900px) {
+    .wrap_excellent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .excellent_ul li {
+        margin-left: 0;
+    }
+    .wrap_excellent {
+        padding: 70px 0 0px 0;
+    }
+    .wrap_partners {
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 739px) {
+    .proj_common {
+        width: 370px;
+    }
+    .tab_img1 {
+    	height: 237px;
+    	background: url(./img/tab_photo1.png) no-repeat;
+    	background-position: 0 -20px;
+    }
+    .tab_img2 {
+    	height: 237px;
+    	background: url(./img/tab_photo2.png) no-repeat;
+    	background-position: -38px -44px;
+    }
+    .tab_img3 {
+    	height: 237px;
+    	background: url(./img/tab_photo3.png) no-repeat;
+    }
+    .tab_img4 {
+    	height: 237px;
+    	background: url(./img/tab_photo4.png) no-repeat;
+    	background-position: 0px -85px;
+    }
+    .tab_img5 {
+    	height: 237px;
+    	background: url(./img/tab_photo5.png) no-repeat;
+    	background-position: 0px -15px;
+    }
+    .tab_img6 {
+    	height: 237px;
+    	background: url(./img/tab_photo6.png) no-repeat;
     }
 }
 @media screen and (max-width: 680px) {
@@ -90,6 +196,11 @@
     }
     /*.......end slider.........*/
 }
+@media screen and (max-width: 600px) {
+    .video_presentation {
+    	padding: 50px 0;
+    }
+}
 @media screen and (max-width: 500px) {
     .slogan_1 {
     font-size: 1.8em;
@@ -99,5 +210,57 @@
     }
     .slogan_3 {
     font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 460px) {
+    .proj_common {
+        width: 295px;
+    }
+    .tab_img1 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_1.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img2 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_2.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img3 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_3.png) no-repeat;
+        background-position: 0 0;
+    }
+    .tab_img4 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_4.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img5 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_5.png) no-repeat;
+    	background-position: 0 0;
+    }
+    .tab_img6 {
+    	height: 220px;
+    	background: url(./img/tab_photo_less_6.png) no-repeat;
+        background-position: 0 0;
+    }
+    .latest {
+        padding: 70px 0;
+    }
+}
+@media screen and (max-width: 411px) {
+    .text_boxes_h1 {
+    font-size: 1.5em;
+    }
+    .span_wax {
+    font-size: 1.6em;
+    }
+    .text_boxes_p {
+    font-size: 0.9em;
+    }
+    div[class*='logos'] {
+        margin-right: 0;
     }
 }
